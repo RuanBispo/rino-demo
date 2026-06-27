@@ -111,7 +111,7 @@ tr:last-child td { border-bottom: 0; }
 .scene-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: var(--line); }
 .scene-tabs button { min-height: 46px; border: 0; border-radius: 0; background: #f8faf8; color: var(--muted); font: inherit; font-weight: 800; cursor: pointer; }
 .scene-tabs button.active, .scene-tabs button:hover { background: var(--dark); color: #f7fbf9; }
-.video-shell video { width: 100%; aspect-ratio: 1652 / 946; object-fit: contain; background: var(--dark); }
+.video-shell video { width: 100%; aspect-ratio: 1652 / 948; object-fit: contain; background: var(--dark); }
 .scene-meta { display: flex; justify-content: space-between; gap: 18px; align-items: center; padding: 16px 18px; border-top: 1px solid var(--line); }
 .scene-meta h3 { margin: 0; font-size: 1.02rem; }
 .scene-meta p { margin: 4px 0 0; color: var(--muted); }
