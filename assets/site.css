@@ -103,8 +103,9 @@ h2 { margin: 8px 0 0; font-size: clamp(1.75rem, 3.2vw, 3.15rem); line-height: 1.
 .metric-card p { margin: 12px 0 0; color: var(--muted); }
 .table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--panel); box-shadow: var(--shadow); }
 table { width: 100%; min-width: 1040px; border-collapse: collapse; }
-th, td { padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th, td { padding: 11px 12px; text-align: center; border-bottom: 1px solid var(--line); white-space: nowrap; }
 th { background: #eef3f1; color: var(--muted); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; }
+th:nth-child(2), td:nth-child(2) { text-align: left; }
 th:nth-child(9), td:nth-child(9) { border-left: 2px solid #b9c6c2; }
 td:nth-child(9) { padding-left: 18px; }
 .rank-heading, .rank-cell { width: 42px; text-align: center; }
